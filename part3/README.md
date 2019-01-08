@@ -1,7 +1,9 @@
 This python program is used to put students in groups of at most 3 based on the preferences given by the students. 
+
 Input is in this format
 <student name> <requested team size> <people the student wants to work with> <people the student doesn't want to work with>
- Eg: 
+ Eg: tjones 2 ahdarling,cyshoe alsmith,vfsmith
+ 
 The below implemented program uses Local Search - Monte Carlo(Partially).                    
 Tested with 100 student pref data.                                                           
 Cannot guarantee optimal result but on multiple runs it should come close to optimal result. 
