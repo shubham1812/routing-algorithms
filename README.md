@@ -1,17 +1,4 @@
-# routing-algorithms
-Implemented algorithms that find good driving directions between pairs of cities in US of A
-
-Search Algorithms Implemented:
-DFS
-BFS
-Uniform Search
-Astar
-
-Parameters by which path can be searched:
-distance
-time
-segments
-
-How to run:
-Ex:
-./route.py Bloomington,_Indiana Indianapolis,_Indiana bfs segments
+# searching algorithms
+Part 1 : Solution to n * n puzzle board which can rotate a row in 1 direction at a time
+Part 2: Routing Algorithms
+Part 3: Assigning groups in a class based on student's prefernces using Monte Carlo
