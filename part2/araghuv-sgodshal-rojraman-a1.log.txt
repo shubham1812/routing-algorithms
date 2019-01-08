@@ -1,0 +1,73 @@
+
+---- Test Case #1
+./route.py Bloomington,_Indiana Indianapolis,_Indiana bfs segments
+Congratulations! Your output  looks great! :)
+
+---- Test Case #2
+./route.py Cleveland,_Ohio Wooster,_Ohio bfs segments
+Congratulations! Your output  looks great! :)
+
+---- Test Case #4
+./route.py Cleveland,_Ohio Wooster,_Ohio uniform distance
+Your code output: no 63 1.28962703963 Cleveland,_Ohio Seven_Hills,_Ohio Jct_I-77_&_I-80,_Ohio Bath,_Ohio Copley,_Ohio Norton,_Ohio Wooster,_Ohio
+We expected: yes 62.0 -1 (path with 5 segments)
+Incorrect number of segments, not matching expectation
+
+---- Test Case #5
+./route.py Cleveland,_Ohio Wooster,_Ohio astar distance
+Your code output: no 93 1.65827505828 Cleveland,_Ohio Elyria,_Ohio North_Ridgeville,_Ohio Strongsville,_Ohio Weymouth,_Ohio Westfield_Center,_Ohio Wooster,_Ohio
+We expected: yes 62.0 -1 (path with 5 segments)
+Incorrect number of segments, not matching expectation
+
+---- Test Case #6
+./route.py Bloomington,_Indiana Wooster,_Ohio uniform distance
+Your code output: no 316 5.98275058275 Bloomington,_Indiana Martinsville,_Indiana Jct_I-465_&_IN_37_S,_Indiana Jct_I-65_&_I-465_S,_Indiana Jct_I-74_&_I-465_E,_Indiana Jct_I-465_&_US_52,_Indiana Jct_I-70_&_I-465_E,_Indiana Spiceland,_Indiana Richmond,_Indiana Vandalia,_Ohio Fairborn,_Ohio Springfield,_Ohio Marysville,_Ohio Delaware,_Ohio Berkshire,_Ohio Mt._Vernon,_Ohio Wooster,_Ohio
+We expected: yes 314.0 -1 (path with 17 segments)
+Incorrect number of segments, not matching expectation
+
+---- Test Case #7
+./route.py Wooster,_Ohio Bloomington,_Indiana uniform distance
+Your code output: no 321 6.12136752137 Wooster,_Ohio Mansfield,_Ohio Chesterville,_Ohio Berkshire,_Ohio Delaware,_Ohio Marysville,_Ohio Springfield,_Ohio Fairborn,_Ohio Vandalia,_Ohio Richmond,_Indiana Spiceland,_Indiana Rushville,_Indiana Greensburg,_Indiana Columbus,_Indiana Bloomington,_Indiana
+We expected: yes 314.0 -1 (path with 17 segments)
+Incorrect number of segments, not matching expectation
+
+---- Test Case #8
+./route.py Cleveland,_Ohio Wooster,_Ohio astar time
+Your code output: no 93 1.65827505828 Cleveland,_Ohio Elyria,_Ohio North_Ridgeville,_Ohio Strongsville,_Ohio Weymouth,_Ohio Westfield_Center,_Ohio Wooster,_Ohio
+We expected: yes 62.0 -1 (path with 5 segments)
+Incorrect number of segments, not matching expectation
+
+---- Test Case #9
+./route.py Cleveland,_Ohio Wooster,_Ohio uniform time
+Your code output: no 62 1.22278554779 Cleveland,_Ohio Brook_Park,_Ohio Strongsville,_Ohio Weymouth,_Ohio Westfield_Center,_Ohio Wooster,_Ohio
+We expected: yes 62.0 -1 (path with 5 segments)
+Incorrect optimality
+Congratulations! Your output  looks great! :)
+
+---- Test Case #10
+./route.py Wooster,_Ohio Bloomington,_Indiana uniform time
+Your code output: no 320 5.24615384615 Wooster,_Ohio Mansfield,_Ohio Chesterville,_Ohio Berkshire,_Ohio Westerville,_Ohio Worthington,_Ohio Dublin,_Ohio New_Rome,_Ohio Lafayette,_Ohio Springfield,_Ohio Fairborn,_Ohio Vandalia,_Ohio Richmond,_Indiana Spiceland,_Indiana Jct_I-70_&_I-465_E,_Indiana Jct_I-465_&_US_52,_Indiana Jct_I-74_&_I-465_E,_Indiana Jct_I-65_&_I-465_S,_Indiana Jct_I-465_&_IN_37_S,_Indiana Martinsville,_Indiana Bloomington,_Indiana
+We expected: yes 320.0 -1 (path with 20 segments)
+Incorrect optimality
+Congratulations! Your output  looks great! :)
+
+---- Test Case #11
+./route.py Wooster,_Ohio Bloomington,_Indiana astar time
+Your code output: no 501 10.7886363636 Wooster,_Ohio Coshocton,_Ohio Trinway,_Ohio Zanesville,_Ohio Marietta,_Ohio Athens,_Ohio Albany,_Ohio McArthur,_Ohio Chillicothe,_Ohio Washington_Court_House,_Ohio Hillsboro,_Ohio Mulberry,_Ohio Cincinnati,_Ohio Lawrenceburg,_Indiana Miamitown,_Ohio New_Trenton,_Indiana Greensburg,_Indiana Columbus,_Indiana Bloomington,_Indiana
+We expected: yes 320.0 -1 (path with 20 segments)
+Incorrect number of segments, not matching expectation
+
+---- Test Case #12
+./route.py Wooster,_Ohio Bloomington,_Indiana bfs time
+Your code output: yes 355 7.21538461538 Wooster,_Ohio Mansfield,_Ohio Marion,_Ohio Kenton,_Ohio Bellefontaine,_Ohio Wapakoneta,_Ohio Vandalia,_Ohio Richmond,_Indiana Liberty,_Indiana Rushville,_Indiana Greensburg,_Indiana Columbus,_Indiana Bloomington,_Indiana
+We expected: no -1 -1 (path with 12 segments)
+Incorrect optimality
+Congratulations! Your output  looks great! :)
+
+---- Test Case #13
+./route.py Wooster,_Ohio Bloomington,_Indiana bfs distance
+Your code output: yes 355 7.21538461538 Wooster,_Ohio Mansfield,_Ohio Marion,_Ohio Kenton,_Ohio Bellefontaine,_Ohio Wapakoneta,_Ohio Vandalia,_Ohio Richmond,_Indiana Liberty,_Indiana Rushville,_Indiana Greensburg,_Indiana Columbus,_Indiana Bloomington,_Indiana
+We expected: no -1 -1 (path with 12 segments)
+Incorrect optimality
+Congratulations! Your output  looks great! :)
+Passed  7  of 13 tests (1 given free)
